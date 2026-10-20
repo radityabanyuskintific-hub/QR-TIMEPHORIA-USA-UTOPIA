@@ -16,7 +16,7 @@ const isVercelDeployment = process.env.VERCEL === "1";
 export const metadata: Metadata = {
   title: "Timephoria | Utopia Glow Cushion",
   description:
-    "Explore Utopia Glow Cushion and try on the available shades with your camera.",
+    "Descubre Utopia Glow Cushion y prueba sus tonos disponibles con tu cámara.",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
@@ -32,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es-MX">
       <body className={`${montserrat.variable} antialiased`}>
         {children}
         {isVercelDeployment ? (
