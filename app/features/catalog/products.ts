@@ -8,9 +8,9 @@ const productDetails: Omit<Product, "shades">[] = [
     category: "face",
     finish: "SKIN FINISH PERFECTED",
     price: "IDR 00.000",
-    size: "Cushion compacto",
+    size: "Base compacta",
     image: "/product-pages/thumbnail-card/thumbnail-card-utopia.jpg",
-    description: "Base cushion hidratante que difumina suavemente la apariencia de la piel, ofrece protección solar y deja un acabado luminoso y cómodo.",
+    description: "Base compacta hidratante que difumina suavemente la apariencia de la piel, ofrece protección solar y deja un acabado luminoso y cómodo.",
     claims: ["FPS 50 PA+++", "Luminosidad e hidratación", "Acabado difuminado"],
     swatchSlides: [
       "/swatches/swatches-face/swatches-utopia/swatches-utopia-1.jpg",
